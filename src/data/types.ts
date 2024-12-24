@@ -29,3 +29,11 @@ export type Crop = {
   };
 };
 
+export type Metrics = {
+  crop: string;
+  grossIncome: number;
+  netIncome: number;
+  costOfSeeds: number;
+  numberOfHarvests: number;
+  quantityProduced: number;
+};
